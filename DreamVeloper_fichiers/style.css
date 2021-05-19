@@ -1,0 +1,75 @@
+body{
+	background-color: #F5F5F5;
+	font-family: Nunito;
+}
+
+.jumbotron h1,.jumbotron p{
+	padding-left: 2%;
+	color: #ffffff;
+}
+
+#logo {
+	float: left;
+	padding-top: 2vh;
+}
+
+.transi {
+	margin-top: 2%;
+	background-image:url(point.png);
+	background-repeat: repeat-x;
+}
+
+
+.navbar-brand{
+	padding-left: 1.5vw;
+}
+
+h1{
+	padding-left: 2%;
+}
+
+#block{
+	padding-right: 4%;
+	padding-top: 4%;
+	text-align: center;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.jumbotron {
+	height: 30%;
+	background-image: url('CimeteryBackground0.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.twitter-tweet {
+	width: 100% !important;
+}
